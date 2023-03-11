@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="row">
+            <div class="col">
+                <div class="first box">
+                    <input id="font" type="number" value="16" min="1" max="100" >
+                </div>
+                <div class="second box">
+                    <button type="button"  id="bold">
+                        <i class="fa-solid fa-bold"></i>
+                    </button>
+                    <button type="button" id="italic">
+                        <i class="fa-solid fa-italic"></i>
+                    </button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <textarea id="textarea1" placeholder="Your text here "></textarea>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
